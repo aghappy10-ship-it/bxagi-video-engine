@@ -1,0 +1,156 @@
+.bx-bxagi-banner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 17px 20px;
+  border: 1px solid #d9e5fc;
+  background: #edf4ff;
+  border-radius: 9px;
+  margin-bottom: 22px;
+}
+
+.bx-bxagi-banner>svg {
+  color: #527bd0;
+}
+
+.bx-bxagi-banner>div {
+  flex: 1;
+}
+
+.bx-bxagi-banner strong {
+  font-size: 14px;
+  color: #3b5a88;
+}
+
+.bx-bxagi-banner p {
+  font-size: 12px;
+  color: #61718a;
+  margin-top: 3px;
+}
+
+.bx-bxagi-banner .bx-button {
+  margin-left: auto;
+}
+
+.bx-remote-jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8px 0 17px;
+}
+
+.bx-remote-job {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 17px;
+  border: 1px solid #e2e9f5;
+  border-radius: 9px;
+  background: #f8fbff;
+}
+
+.bx-remote-job>div:first-of-type {
+  flex: 1;
+  min-width: 0;
+}
+
+.bx-remote-job h3 {
+  font-size: 14px;
+  color: #465b77;
+}
+
+.bx-remote-job p {
+  font-size: 13px;
+  color: #61718a;
+  line-height: 1.8;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+
+.bx-remote-job small {
+  font-size: 12px;
+  color: #61718a;
+  display: block;
+  margin-top: 5px;
+}
+
+.bx-remote-job>.bx-badge {
+  margin-top: 3px;
+}
+
+.bx-remote-job>.bx-inline-actions {
+  margin-left: auto;
+}
+
+.bx-remote-job .bx-button {
+  font-size: 12px;
+}
+
+.bx-task-list>.bx-remote-jobs {
+  margin: 0;
+  width: 100%;
+}
+
+@media(max-width:1000px) {
+  .bx-remote-job {
+    flex-wrap: wrap;
+  }
+  .bx-remote-job>div:first-of-type {
+    min-width: calc(100% - 55px);
+  }
+  .bx-remote-job>.bx-badge {
+    margin-left: 50px;
+  }
+  .bx-bxagi-banner {
+    flex-wrap: wrap;
+  }
+  .bx-bxagi-banner>.bx-button {
+    margin-left: 36px;
+  }
+}
+
+@media(max-width:760px) {
+  .bx-bxagi-banner {
+    padding: 16px;
+    gap: 10px;
+  }
+  .bx-bxagi-banner>div {
+    min-width: calc(100% - 40px);
+  }
+  .bx-remote-job {
+    padding: 13px;
+    gap: 11px;
+  }
+  .bx-remote-job p {
+    font-size: 12px;
+  }
+  .bx-remote-job small {
+    font-size: 11px;
+  }
+}
+
+.bx-login-loading {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top,#e9f1ff,#f4f7fc 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px;
+  color: #61718a;
+}
+
+.bx-login-loading>svg {
+  color: #2861e9;
+  margin-bottom: 21px;
+}
+
+.bx-login-loading h1 {
+  font-size: 24px;
+  color: #243d68;
+}
+
+.bx-login-loading p {
+  font-size: 14px;
+  margin-top: 8px;
+}

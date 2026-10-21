@@ -1,0 +1,106 @@
+{
+  "scenario": "showcase-v1",
+  "source": {
+    "file": "NotoSansSC-original.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "bytes": 17772300,
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "OFL.txt",
+    "bytes": 4388,
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  "subset": {
+    "file": "BXAGI-Showcase-SC-Subset.ttf",
+    "embeddedModule": "server/bxagi-showcase-font.mjs",
+    "bytes": 32372,
+    "sha256": "fc23849fca028120c6c6d7d60e12c07c7daa1496c4548074952bc40c29546c28",
+    "uniqueCodepoints": 155,
+    "charactersFile": "CHARACTERS.txt",
+    "glyphCoverageComplete": true,
+    "nonWhitespaceOutlinesVerified": true,
+    "staticWeight": 600,
+    "variableAxesRemoved": true,
+    "pillowLoaded": true,
+    "titleMaskSizesAt60px": {
+      "一份素材，多少种可能？": [
+        660,
+        59
+      ],
+      "从上传开始": [
+        300,
+        57
+      ],
+      "连接 BXAGI 员工": [
+        442,
+        58
+      ],
+      "画面 · 节奏 · 声音": [
+        534,
+        58
+      ],
+      "创意，形成作品": [
+        420,
+        60
+      ],
+      "BXAGI 广告素材工作台": [
+        608,
+        58
+      ],
+      "让素材，成为成品。": [
+        540,
+        60
+      ],
+      "服装": [
+        120,
+        57
+      ],
+      "游戏": [
+        120,
+        58
+      ],
+      "短剧": [
+        120,
+        57
+      ],
+      "视频优化专家": [
+        360,
+        58
+      ],
+      "素材库": [
+        180,
+        57
+      ],
+      "视频": [
+        120,
+        57
+      ],
+      "封面": [
+        120,
+        57
+      ],
+      "制作说明": [
+        240,
+        57
+      ],
+      "素材生产演示": [
+        360,
+        58
+      ]
+    },
+    "fontNames": {
+      "1": "BXAGI Showcase SC Subset",
+      "2": "SemiBold",
+      "3": "BXAGI-Showcase-SC-Subset-SemiBold-1.0",
+      "4": "BXAGI Showcase SC Subset SemiBold",
+      "6": "BXAGIShowcaseSCSubset-SemiBold",
+      "16": "BXAGI Showcase SC Subset",
+      "17": "SemiBold",
+      "21": "BXAGI Showcase SC Subset",
+      "22": "SemiBold"
+    }
+  },
+  "purpose": "Licensed input font only. No video has been rendered by this resource build."
+}

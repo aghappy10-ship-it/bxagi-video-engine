@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "bxagi-background-scheduler",
+  "main": "./cron-forwarder.mjs",
+  "compatibility_date": "2026-05-15",
+  "workers_dev": false,
+  "preview_urls": false,
+  "vars": {
+    "SITE_URL": "https://bxagi-video-suite.amberskunk4.chatgpt.site"
+  },
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "observability": {
+    "enabled": true
+  }
+}

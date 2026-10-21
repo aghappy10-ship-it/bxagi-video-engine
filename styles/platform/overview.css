@@ -1,0 +1,389 @@
+.bx-hero {
+  background: linear-gradient(108deg,#f2f7ff,#eaf1fd 75%,#e6edfc);
+  border: 1px solid #dee8fa;
+  border-radius: 12px;
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 258px;
+  position: relative;
+  overflow: hidden;
+  padding: 31px 35px;
+}
+
+.bx-hero-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.bx-hero h1 {
+  font-size: 29px;
+  font-weight: 680;
+  letter-spacing: -1px;
+  color: #243d68;
+  margin-top: 11px;
+  line-height: 1.5;
+}
+
+.bx-hero p {
+  font-size: 12px;
+  color: #6f82a2;
+  line-height: 1.9;
+  margin: 10px 0 23px;
+}
+
+.bx-hero-link {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 12px;
+  color: #7b91b5;
+  background: none;
+  border: 0;
+  padding: 0 8px;
+}
+
+.bx-hero-visual {
+  position: relative;
+  width: 340px;
+  min-width: 275px;
+  margin: 0 0 0 35px;
+  align-self: stretch;
+}
+
+.bx-flow-card {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  background: #ffffffc9;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 13px 16px;
+  box-shadow: 0 6px 20px #335a9820;
+  z-index: 2;
+  transform: rotate(-4deg);
+  width: 238px;
+}
+
+.bx-flow-card>span {
+  color: #6690d8;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #edf4ff;
+  border-radius: 8px;
+}
+
+.bx-flow-card strong {
+  font-size: 12px;
+  color: #3c5d91;
+}
+
+.bx-flow-card small {
+  display: block;
+  font-size: 12px;
+  color: #8ca1c2;
+  margin-top: 4px;
+}
+
+.bx-flow-card.source {
+  top: 0;
+  left: 14px;
+}
+
+.bx-flow-card.employee {
+  top: 75px;
+  right: 0;
+  transform: rotate(3deg);
+  background: #346df0;
+  border-color: #5081f4;
+  box-shadow: 0 10px 24px #346df035;
+}
+
+.bx-flow-card.employee>span {
+  color: #fff;
+  background: #ffffff20;
+}
+
+.bx-flow-card.employee strong {
+  color: white;
+}
+
+.bx-flow-card.employee small {
+  color: #b7ceff;
+}
+
+.bx-flow-card.employee i {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #84e2ba;
+  margin-left: auto;
+}
+
+.bx-flow-card.output {
+  top: 152px;
+  left: 8px;
+  transform: rotate(-3deg);
+}
+
+.bx-orbit {
+  border: 1px solid #5585dd18;
+  border-radius: 50%;
+  width: 370px;
+  height: 220px;
+  position: absolute;
+  left: -13px;
+  top: 5px;
+  transform: rotate(-35deg);
+}
+
+.bx-orbit.two {
+  transform: rotate(35deg);
+}
+
+.bx-flow-connector {
+  height: 30px;
+  width: 1px;
+  border-left: 2px dashed #8dace433;
+  position: absolute;
+  top: 62px;
+  left: 188px;
+  transform: rotate(-35deg);
+}
+
+.bx-flow-connector.b {
+  top: 140px;
+  left: 146px;
+  transform: rotate(35deg);
+}
+
+.bx-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 17px;
+  margin-bottom: 22px;
+}
+
+.bx-stat {
+  border: 1px solid #e5eaf2;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 23px;
+}
+
+.bx-stat>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #61718a;
+}
+
+.bx-stat span {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-stat>strong {
+  display: block;
+  font-size: 29px;
+  line-height: 1.4;
+  letter-spacing: -.5px;
+  color: #2d4262;
+  margin: 8px 0 3px;
+  font-weight: 600;
+}
+
+.bx-stat>small {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-stat>strong:has(+small) {
+  overflow-wrap: anywhere;
+}
+
+.bx-steps {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 13px;
+}
+
+.bx-steps>div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #61718a;
+  white-space: nowrap;
+}
+
+.bx-steps>div>span {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e3e8f2;
+  border-radius: 50%;
+  background: #f8f9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-steps>div.active {
+  color: #3164d6;
+}
+
+.bx-steps>div.active>span {
+  background: #ebf2ff;
+  color: #3670e8;
+  border-color: #afc8fb;
+}
+
+.bx-steps>div.done>span {
+  background: #edf7f1;
+  color: #4f9b79;
+  border-color: #d5eadd;
+}
+
+.bx-steps>div>svg {
+  margin-left: auto;
+  color: #c6cede;
+}
+
+.bx-workflow-descriptions {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 35px;
+  margin-top: 15px;
+}
+
+.bx-workflow-descriptions p {
+  font-size: 12px;
+  color: #61718a;
+  line-height: 1.9;
+}
+
+.bx-overview-bottom {
+  display: grid;
+  grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
+  gap: 21px;
+}
+
+.bx-recent-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.bx-recent-projects>button {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #f0f3f8;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 13px 0;
+}
+
+.bx-recent-projects>button:last-child {
+  border: 0;
+}
+
+.bx-recent-icon {
+  width: 36px;
+  height: 39px;
+  border: 1px solid #e8edf5;
+  border-radius: 8px;
+  background: #f7faff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7995c2;
+  flex-shrink: 0;
+}
+
+.bx-recent-projects strong {
+  font-size: 12px;
+  color: #405674;
+}
+
+.bx-recent-projects>button>div {
+  min-width: 0;
+}
+
+.bx-recent-projects>button>div small {
+  display: block;
+  font-size: 12px;
+  color: #61718a;
+  margin-top: 4px;
+}
+
+.bx-recent-projects>button>small {
+  margin-left: auto;
+  color: #61718a;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.bx-recent-projects>button>svg {
+  color: #61718a;
+}
+
+.bx-readiness {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bx-readiness li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 13px 0;
+  border-bottom: 1px solid #f0f3f8;
+}
+
+.bx-readiness li:last-child {
+  border: 0;
+}
+
+.bx-readiness li>svg {
+  color: #8da7cf;
+  margin-top: 1px;
+}
+
+.bx-readiness strong {
+  font-size: 12px;
+  color: #506580;
+}
+
+.bx-readiness p {
+  font-size: 12px;
+  color: #61718a;
+  margin-top: 4px;
+}
+
+.bx-readiness li>.bx-badge,.bx-readiness li>button {
+  margin-left: auto;
+  margin-top: 2px;
+}
+
+.bx-form-note {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #61718a;
+  margin-top: 17px;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.bx-form-note>svg {
+  margin-top: 3px;
+}

@@ -1,0 +1,14 @@
+BXAGI Showcase SC Subset
+
+This is a modified static-weight subset of Noto Sans SC obtained from the official Google Fonts repository.
+Original source: https://github.com/google/fonts/tree/main/ofl/notosanssc
+Original font: https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf
+
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name Source.
+Licensed under SIL Open Font License 1.1. See the accompanying unchanged OFL.txt.
+The modified family is BXAGI Showcase SC Subset; the modified font does not use the Reserved Font Name as its family name.
+Modifications: subset to the fixed showcase-v1 screen copy plus printable ASCII (see CHARACTERS.txt), instantiate a static weight of 600, and rename family, subfamily, unique and PostScript names.
+Do not sell the font by itself. Keep the copyright notice and OFL.txt when redistributing this font resource.
+No author endorsement is asserted. Videos, images and documents created using the font do not inherit the font license.
+
+This is an input font resource for a BXAGI employee production task, not a video or other finished creative. The employee must create the actual output files. The font covers only CHARACTERS.txt; it is not a general-purpose Chinese font.

@@ -1,0 +1,424 @@
+@media(min-width:1600px) {
+  .bx-hero-visual {
+    margin-right: 65px;
+  }
+  .bx-creative-grid {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  }
+}
+
+@media(max-width:1250px) {
+  .bx-hero {
+    padding: 27px;
+  }
+  .bx-hero-visual {
+    width: 280px;
+    min-width: 265px;
+    margin-left: 15px;
+  }
+  .bx-hero h1 {
+    font-size: 26px;
+  }
+  .bx-stat {
+    padding: 17px;
+  }
+  .bx-stat small {
+    font-size: 12px;
+  }
+  .bx-project-layout {
+    grid-template-columns: 175px minmax(0,1fr);
+    gap: 17px;
+  }
+  .bx-variant-grid {
+    grid-template-columns: 1fr;
+  }
+  .bx-variant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 15px;
+  }
+  .bx-variant header,.bx-variant h3,.bx-variant>small,.bx-variant .bx-evidence {
+    grid-column: 1/-1;
+  }
+  .bx-variant h3 {
+    margin: 1px 0;
+  }
+  .bx-variant .bx-field {
+    margin: 0;
+  }
+  .bx-variant .bx-field:nth-of-type(2) {
+    grid-row: 3/5;
+    grid-column: 2;
+  }
+  .bx-employee-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .bx-channel-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .bx-project-detail .bx-panel-head,.bx-project-detail .bx-panel-body {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .bx-project-detail .bx-steps {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 13px;
+  }
+  .bx-video-export {
+    flex-wrap: wrap;
+  }
+  .bx-video-export>div:first-child {
+    flex-basis: 100%;
+  }
+  .bx-production-footer {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:1050px) {
+  .bx-hero-visual {
+    display: none;
+  }
+  .bx-hero {
+    padding: 30px;
+  }
+  .bx-overview-bottom {
+    grid-template-columns: 1fr;
+  }
+  .bx-stat-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .bx-steps {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 16px;
+  }
+  .bx-workflow-descriptions {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 15px 35px;
+  }
+  .bx-project-layout {
+    grid-template-columns: 1fr;
+  }
+  .bx-project-list {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    align-items: stretch;
+  }
+  .bx-project-list>header {
+    flex-shrink: 0;
+    border-right: 1px solid #e5eaf2;
+    gap: 10px;
+    border-bottom: 0;
+  }
+  .bx-project-list>button {
+    min-width: 170px;
+    max-width: 220px;
+    flex-shrink: 0;
+    border-bottom: 0;
+    border-right: 1px solid #e9edf4;
+  }
+  .bx-project-list>button.selected {
+    box-shadow: inset 0 -2px #2861e9;
+  }
+  .bx-budget-row {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .bx-employee-intro>.bx-badge {
+    display: none;
+  }
+  .bx-search {
+    min-width: 180px;
+  }
+  .bx-toolbar>.bx-search {
+    margin-left: 0;
+    flex: 1;
+  }
+}
+
+@media(max-width:760px) {
+  .bx-cloud-state {
+    font-size: 12px;
+  }
+  .bx-hero {
+    padding: 24px 21px;
+    min-height: auto;
+  }
+  .bx-hero h1 {
+    font-size: 25px;
+  }
+  .bx-hero p {
+    font-size: 12px;
+  }
+  .bx-hero .bx-inline-actions {
+    gap: 7px;
+  }
+  .bx-hero .bx-button {
+    font-size: 12px;
+  }
+  .bx-hero-link {
+    font-size: 12px;
+  }
+  .bx-stat-grid {
+    gap: 12px;
+  }
+  .bx-stat {
+    padding: 17px;
+  }
+  .bx-stat strong {
+    font-size: 24px;
+  }
+  .bx-stat span {
+    font-size: 12px;
+  }
+  .bx-stat small {
+    font-size: 12px;
+  }
+  .bx-panel-head {
+    padding: 19px 17px 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .bx-panel-head h2 {
+    font-size: 14px;
+  }
+  .bx-panel-head p {
+    font-size: 12px;
+  }
+  .bx-panel-body {
+    padding: 0 17px 19px;
+  }
+  .bx-panel:not(:has(.bx-panel-head))>.bx-panel-body {
+    padding-top: 20px;
+  }
+  .bx-steps>div {
+    font-size: 12px;
+    gap: 7px;
+  }
+  .bx-workflow-descriptions p {
+    font-size: 12px;
+  }
+  .bx-workflow-descriptions {
+    gap: 15px;
+  }
+  .bx-project-title {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .bx-project-title h2 {
+    font-size: 20px;
+  }
+  .bx-assignment {
+    padding: 14px;
+    gap: 10px;
+  }
+  .bx-assignment>.bx-badge {
+    display: none;
+  }
+  .bx-assignment p {
+    font-size: 12px;
+  }
+  .bx-assignment strong {
+    font-size: 12px;
+  }
+  .bx-toolbar {
+    gap: 11px;
+  }
+  .bx-segmented button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .bx-creative-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 12px;
+  }
+  .bx-creative-preview {
+    height: 185px;
+  }
+  .bx-creative-info {
+    padding: 12px;
+  }
+  .bx-card-title {
+    flex-wrap: wrap;
+  }
+  .bx-card-title h3 {
+    font-size: 12px;
+  }
+  .bx-creative-actions {
+    gap: 6px;
+  }
+  .bx-creative-actions .bx-button {
+    font-size: 12px;
+  }
+  .bx-campaign {
+    padding: 16px;
+  }
+  .bx-campaign h3 {
+    font-size: 13px;
+  }
+  .bx-campaign-employee {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .bx-task-list>article {
+    flex-wrap: wrap;
+    padding: 13px;
+    gap: 10px;
+  }
+  .bx-task-list>article>div {
+    min-width: calc(100% - 55px);
+  }
+  .bx-task-list .bx-button {
+    margin-left: auto;
+    font-size: 12px;
+  }
+  .bx-employee-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .bx-employee-intro {
+    padding: 19px;
+    gap: 13px;
+  }
+  .bx-employee-intro h2 {
+    font-size: 13px;
+  }
+  .bx-employee-intro p {
+    font-size: 12px;
+  }
+  .bx-capability-summary {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .bx-account-info {
+    flex-wrap: wrap;
+  }
+  .bx-account-info>.bx-badge {
+    margin-left: 60px;
+  }
+  .bx-connections>article {
+    flex-wrap: wrap;
+    gap: 11px;
+    padding: 14px;
+  }
+  .bx-connections .bx-badge {
+    margin-left: 51px;
+  }
+  .bx-channel-grid {
+    gap: 11px;
+  }
+  .bx-channel-grid>article {
+    padding: 15px;
+  }
+  .bx-channel-grid h3 {
+    font-size: 12px;
+  }
+  .bx-modal-backdrop {
+    padding: 20px 12px;
+  }
+  .bx-modal>header {
+    padding: 20px;
+  }
+  .bx-modal>form {
+    padding: 20px 20px 0;
+  }
+  .bx-modal-footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 16px 20px;
+  }
+  .bx-form-grid {
+    gap: 15px;
+  }
+  .bx-modal h2 {
+    font-size: 16px;
+  }
+  .bx-modal input,.bx-modal textarea,.bx-modal select {
+    font-size: 12px;
+  }
+  .bx-field>span {
+    font-size: 12px;
+  }
+  .bx-loading,.bx-auth-panel {
+    padding: 70px 20px;
+  }
+}
+
+@media(max-width:420px) {
+  .bx-creative-grid {
+    grid-template-columns: 1fr;
+  }
+  .bx-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .bx-form-grid>.bx-field.full {
+    grid-column: auto;
+  }
+  .bx-variant {
+    display: block;
+  }
+  .bx-variant h3 {
+    margin: 12px 0;
+  }
+  .bx-variant .bx-field {
+    margin-bottom: 11px;
+  }
+  .bx-variant header>span:last-child {
+    font-size: 12px;
+  }
+  .bx-channel-grid {
+    grid-template-columns: 1fr;
+  }
+  .bx-recent-projects>button>small {
+    display: none;
+  }
+  .bx-hero .bx-inline-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .bx-hero-link {
+    padding: 2px 0;
+  }
+  .bx-budget-row strong {
+    font-size: 16px;
+  }
+  .bx-steps {
+    gap: 12px 8px;
+  }
+  .bx-steps>div {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:1250px) {
+  .bx-project-detail>.bx-steps>div {
+    font-size: 12px;
+  }
+  .bx-variant-grid {
+    gap: 15px;
+  }
+  .bx-channel-grid p {
+    font-size: 13px;
+  }
+  .bx-video-export p {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:760px) {
+  .bx-hero p,.bx-panel-head p,.bx-project-title p,.bx-empty p,.bx-campaign-heading p,.bx-task-list p,.bx-employee-intro p,.bx-employee-card>p,.bx-capability-summary p,.bx-account-info p,.bx-connections p,.bx-channel-grid p,.bx-form-note {
+    font-size: 13px;
+  }
+  .bx-badge,.bx-cloud-state,.bx-workflow-descriptions p,.bx-project-list small,.bx-source small,.bx-employee-card header small,.bx-creative-info>small,.bx-media-job p {
+    font-size: 11px;
+  }
+  .bx-hero .bx-button,.bx-creative-actions .bx-button {
+    font-size: 12px;
+  }
+  .bx-steps>div {
+    font-size: 12px;
+  }
+  .bx-flow-card strong {
+    font-size: 13px;
+  }
+}

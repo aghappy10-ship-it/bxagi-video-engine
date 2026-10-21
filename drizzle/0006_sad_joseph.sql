@@ -1,0 +1,1 @@
+ALTER TABLE `catalogSources` ADD `cursorHistory` text DEFAULT '[]' NOT NULL;

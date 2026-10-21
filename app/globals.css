@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+
+/* Foundation, components, feature surfaces, responsive and accessibility rules. */
+@import "../styles/platform/tokens.css";
+@import "../styles/platform/base.css";
+@import "../styles/platform/shell.css";
+@import "../styles/platform/components.css";
+@import "../styles/platform/overview.css";
+@import "../styles/platform/projects.css";
+@import "../styles/platform/operations.css";
+@import "../styles/platform/responsive.css";
+@import "../styles/platform/typography.css";
+@import "../styles/platform/account-base.css";
+@import "../styles/platform/studio.css";
+@import "../styles/platform/production.css";
+@import "../styles/platform/account.css";
+@import "../styles/platform/accessibility.css";

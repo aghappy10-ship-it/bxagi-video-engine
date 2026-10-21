@@ -1,0 +1,39 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bxagi-advertising-platform",
+  "main": "./build/bxagi-worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "assets": {
+    "directory": "./dist-standalone/client",
+    "binding": "ASSETS",
+    "not_found_handling": "none"
+  },
+  "vars": {
+    "BXAGI_REQUIRED": "true",
+    // Set to false to suspend standalone background advancement.
+    "BXAGI_BACKGROUND_ENABLED": "true"
+  },
+  // Deploy this standalone configuration in your Cloudflare account to activate
+  // the schedule. It does not configure background work on the current host.
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bxagi-advertising",
+      // LOCAL BUILD PLACEHOLDER. Replace with your own actual D1 database ID.
+      "database_id": "00000000-0000-4000-8000-000000000000",
+      "migrations_dir": "./drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      // Create this bucket in your Cloudflare account before deploying.
+      "bucket_name": "bxagi-materials"
+    }
+  ]
+}

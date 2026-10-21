@@ -1,0 +1,38 @@
+:root {
+  color-scheme: light;
+  --nav: #111d33;
+  --navmuted: #a9b7ce;
+  --nav-active: #2d4b83;
+  --bg: #f3f5f9;
+  --card: #ffffff;
+  --text: #1d2a40;
+  --muted: #5e6d83;
+  --line: #dde3ed;
+  --line-strong: #c5cfdf;
+  --accent: #3157c9;
+  --accent-hover: #2647ab;
+  --accent-soft: #edf2ff;
+  /* Legacy aliases also support saved markup and inline styles. */
+  --purple: var(--accent);
+  --purplelight: var(--accent-soft);
+  --green: #147353;
+  --green-soft: #e9f5ee;
+  --orange: #8b5716;
+  --orange-soft: #fff5e2;
+  --red: #ad3348;
+  --red-soft: #fff0f2;
+  --shadow: 0 2px 6px #172b4d04, 0 8px 24px #172b4d04;
+  --shadow-raised: 0 16px 48px #111d3324;
+  --radius: 12px;
+  --sidebar-width: 244px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}

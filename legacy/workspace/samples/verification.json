@@ -1,0 +1,40 @@
+{
+  "version": "1.1.0",
+  "source": "Programmatically generated test pattern with tone; subtitles describe the test, not speech recognition.",
+  "clips": [
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 12,
+      "end": 20
+    }
+  ],
+  "width": 720,
+  "height": 1280,
+  "measured_duration": 16.021333,
+  "full_decode_passed": true,
+  "technical_gates": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "sentence_boundary",
+        "status": "pass",
+        "detail": "各片段始末匹配导入字幕的完整句边界（标点规则；不验证转写准确性）"
+      },
+      {
+        "name": "media_decode",
+        "status": "pass",
+        "detail": "完整 FFmpeg 解码成功；720×1280；时长 16.021s"
+      }
+    ],
+    "errors": []
+  },
+  "semantic_ai_verified": false,
+  "burn_subtitles": false,
+  "actual_model_inference_verified": false,
+  "actual_ad_execution_verified": false,
+  "browser_visual_qa_performed": false,
+  "output": "verified_output.mp4"
+}

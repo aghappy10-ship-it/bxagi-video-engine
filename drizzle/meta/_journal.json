@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791949752832,
+      "tag": "0000_hard_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791953130576,
+      "tag": "0001_adorable_forgotten_one",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791965781430,
+      "tag": "0002_fuzzy_warstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792058643064,
+      "tag": "0003_dazzling_madripoor",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792059173500,
+      "tag": "0004_spooky_blue_marvel",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792490144297,
+      "tag": "0005_melodic_loners",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1792490370873,
+      "tag": "0006_sad_joseph",
+      "breakpoints": true
+    }
+  ]
+}

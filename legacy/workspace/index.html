@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="BXAGI 视频生产与投放工作台：管理素材、片段计划、质量验收与导入报表。">
+<meta name="theme-color" content="#111d33">
+<title>BXAGI · 视频生产与投放工作台</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">跳转到主要内容</a>
+<div id="app">
+  <div class="app-loading" role="status" aria-live="polite">
+    <span class="loading-indicator" aria-hidden="true"></span>
+    <strong>BXAGI 工作台</strong>
+    <p>正在载入工作区…</p>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<div id="modal-root"></div>
+<noscript>
+  <div class="noscript-notice">
+    <strong>请启用 JavaScript</strong>
+    <p>素材预览、片段规划和本地工作区需要 JavaScript 才能运行。</p>
+  </div>
+</noscript>
+<script type="module" src="./app.js"></script>
+</body></html>

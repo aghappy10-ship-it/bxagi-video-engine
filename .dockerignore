@@ -1,0 +1,17 @@
+.git
+.env
+.env.*
+node_modules
+.sites-runtime
+.wrangler
+.vinext
+.next
+dist
+public/downloads
+**/__pycache__
+**/*.pyc
+backend/data
+runtime
+data
+*.zip
+*.log

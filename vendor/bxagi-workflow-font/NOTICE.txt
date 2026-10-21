@@ -1,0 +1,14 @@
+BXAGI Workflow SC Subset
+
+This is a modified static-weight subset of Noto Sans SC obtained from the official Google Fonts repository.
+Original source: https://github.com/google/fonts/tree/main/ofl/notosanssc
+Original font download: https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf
+
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name Source.
+Licensed under SIL Open Font License 1.1. See the accompanying unchanged OFL.txt.
+The modified font family is BXAGI Workflow SC Subset; it does not use the Reserved Font Name.
+Modification: retained only these characters: BXAGI 智能调度实测 流程测试素材 这是用于验证流程的测试素材 不包含商品价格、优惠或效果承诺 仅用于流程验证，不进行广告投放, instantiated weight 400, and renamed the family and PostScript names.
+Do not sell the font by itself. Retain the copyright notice and OFL.txt when redistributing this input resource.
+No author endorsement is asserted. Documents or images made using the font are not required to use the font license.
+
+This is an input font resource for workflow verification; it is not a production creative. The font covers only the listed characters.

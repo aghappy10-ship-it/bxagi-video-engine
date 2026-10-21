@@ -1,0 +1,135 @@
+/* Readable product typography across the seven screens. */
+
+.bx-hero p,.bx-panel-head p,.bx-project-title p,.bx-empty p,.bx-campaign-heading p,.bx-task-list p,.bx-employee-intro p,.bx-employee-card>p,.bx-capability-summary p,.bx-account-info p,.bx-connections p,.bx-channel-grid p,.bx-form-note,.bx-advanced>p {
+  font-size: 14px;
+  color: #61718a;
+}
+
+.bx-field>span,.bx-variant .bx-field>span {
+  font-size: 13px;
+  color: #465b77;
+}
+
+.bx-field>small,.bx-variant>small,.bx-evidence,.bx-instructions p,.bx-instructions>small {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-variant input,.bx-variant textarea,.bx-modal input,.bx-modal select,.bx-modal textarea {
+  font-size: 14px;
+}
+
+.bx-source strong,.bx-card-title h3,.bx-employee-card header h3,.bx-recent-projects strong,.bx-campaign h3,.bx-task-list h3 {
+  font-size: 14px;
+  color: #465b77;
+}
+
+.bx-badge {
+  font-size: 12px;
+}
+
+.bx-button {
+  font-size: 13px;
+}
+
+.bx-creative-actions .bx-button {
+  font-size: 12px;
+}
+
+.bx-flow-card small {
+  font-size: 11px;
+  color: #61718a;
+}
+
+.bx-flow-card strong {
+  font-size: 13px;
+}
+
+.bx-flow-card.employee small {
+  color: #d5e2ff;
+}
+
+.bx-workflow-descriptions p {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-cloud-state {
+  font-size: 12px;
+}
+
+.bx-panel-head {
+  align-items: flex-start;
+}
+
+.bx-readiness p {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-readiness strong {
+  font-size: 13px;
+}
+
+.bx-stat>small {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-stat span {
+  font-size: 13px;
+}
+
+.bx-project-list small,.bx-employee-card header small,.bx-source small,.bx-creative-info>small,.bx-connections small {
+  font-size: 12px;
+  color: #61718a;
+}
+
+.bx-table {
+  font-size: 14px;
+}
+
+.bx-table td,.bx-table td strong {
+  font-size: 13px;
+}
+
+.bx-table th,.bx-table td small {
+  font-size: 12px;
+}
+
+.bx-steps>div {
+  font-size: 13px;
+}
+
+.bx-steps>div>span {
+  font-size: 11px;
+}
+
+.bx-toolbar>select,.bx-segmented button {
+  font-size: 13px;
+}
+
+.bx-capability-list>span {
+  font-size: 12px;
+}
+
+.bx-budget-row strong {
+  font-size: 20px;
+}
+
+.bx-budget-row small {
+  font-size: 12px;
+}
+
+.bx-campaign-employee {
+  font-size: 12px;
+}
+
+.bx-checkbox,.bx-checkbox-list>label {
+  font-size: 13px;
+}
+
+.bx-technical-note {
+  font-size: 12px;
+  color: #61718a;
+}

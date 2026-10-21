@@ -1,0 +1,120 @@
+.bx-account-page {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    align-items: center;
+    padding: 56px 32px;
+    color: #e7f0f8;
+    background:
+        radial-gradient(ellipse at 8% 8%, #16475666, transparent 48%),
+        radial-gradient(ellipse at 88% 90%, #17365655, transparent 44%),
+        #0b182a;
+}
+
+.bx-account-layout {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 450px);
+    align-items: center;
+    gap: clamp(40px, 7vw, 112px);
+}
+
+.bx-account-story { min-width: 0; }
+.bx-account-page .bx-brand { margin: 0 0 70px; gap: 13px; }
+.bx-account-page .bx-brand strong { color: #fff; font-size: 27px; letter-spacing: 0.5px; }
+.bx-account-page .bx-brand strong > span { color: #42ccdc; }
+.bx-account-page .bx-brand small { color: #9cadc3; font-size: 12px; }
+.bx-account-page .bx-brand-mark span { background: #22b6cf; }
+.bx-account-page .bx-brand-mark span:nth-child(2) { background: #55d3df; }
+.bx-account-page .bx-brand-mark span:nth-child(3) { background: #a7edf0; }
+.bx-account-eyebrow { color: #72d6e0; font-size: 11px; font-weight: 650; letter-spacing: 2.2px; }
+.bx-account-intro h1 { color: #f4f8fc; font-size: clamp(38px, 4.6vw, 58px); line-height: 1.3; letter-spacing: -1.8px; margin: 19px 0 22px; }
+.bx-account-intro > p { color: #aab9cc; font-size: 15px; line-height: 1.9; max-width: 380px; }
+.bx-account-journey { list-style: none; display: grid; gap: 22px; padding: 0; margin: 37px 0 30px; }
+.bx-account-journey li { display: flex; align-items: center; gap: 15px; }
+.bx-account-journey li > svg { color: #6cd3df; width: 43px; height: 43px; padding: 11px; border: 1px solid #60cfde25; border-radius: 12px; background: #15374b66; flex-shrink: 0; }
+.bx-account-journey strong { display: block; color: #e4edf7; font-size: 14px; font-weight: 550; }
+.bx-account-journey small { display: block; color: #95a9c0; font-size: 12px; margin-top: 4px; }
+.bx-account-market-link { display: inline-flex; gap: 7px; align-items: center; color: #8ddde5; font-size: 13px; padding: 8px 0; }
+.bx-account-market-link:hover { color: #d0f9fb; }
+.bx-account-caption { color: #91a4bb; font-size: 11px; margin-top: 47px; letter-spacing: 1px; }
+
+.bx-account-card {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid #d7e2ef;
+    border-radius: 20px;
+    color: #192e48;
+    background: #fff;
+    box-shadow: 0 28px 75px #00000029;
+}
+
+.bx-account-card-header { padding: 33px 34px 24px; }
+.bx-account-card-icon { display: flex; width: 48px; height: 48px; align-items: center; justify-content: center; color: #087e99; background: #eaf7fa; border: 1px solid #ccebf1; border-radius: 14px; margin-bottom: 23px; }
+.bx-account-card-eyebrow { display: block; font-size: 10px; letter-spacing: 1.7px; color: #6c7c91; font-weight: 650; margin-bottom: 8px; }
+.bx-account-card-header h2 { color: #142a44; font-size: 24px; letter-spacing: -0.5px; line-height: 1.4; }
+.bx-account-card-header p { color: #63738a; font-size: 13px; line-height: 1.8; margin-top: 8px; }
+.bx-account-scope .bx-account-form { padding: 0 34px; }
+.bx-account-scope .bx-account-methods { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 4px; border: 1px solid #e4eaf2; background: #f3f6fa; border-radius: 10px; margin-bottom: 25px; }
+.bx-account-methods button { border: 0; background: transparent; border-radius: 7px; min-height: 42px; color: #66788f; font-size: 13px; }
+.bx-account-methods button[aria-pressed="true"] { color: #086b85; font-weight: 650; background: #fff; box-shadow: 0 1px 5px #173a5c12; }
+.bx-account-methods button:hover:not(:disabled) { color: #086b85; }
+.bx-account-scope .bx-field { margin: 0 0 19px; gap: 8px; }
+.bx-account-scope .bx-field > span { color: #31455f; font-size: 13px; font-weight: 600; }
+.bx-account-scope input { width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid #d4deeb; border-radius: 8px; font-size: 14px; line-height: 1.5; color: #182e49; background: #fcfdff; box-shadow: 0 1px 2px #162c4603; }
+.bx-account-scope input::placeholder { color: #8491a4; }
+.bx-account-scope input:hover:not(:disabled) { border-color: #aabed4; }
+.bx-account-scope input:focus { border-color: #1195b3; outline: 3px solid #24b1ce20; outline-offset: 0; background: #fff; }
+.bx-account-scope input:disabled { color: #748399; background: #f0f4f8; }
+.bx-account-help { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: -5px; font-size: 11px; color: #718198; }
+.bx-account-help a { display: inline-flex; align-items: center; gap: 5px; color: #087b96; font-size: 12px; }
+.bx-account-note { display: flex; gap: 9px; align-items: flex-start; padding: 13px 14px; margin-top: 22px; border: 1px solid #e4edf4; border-radius: 9px; font-size: 12px; line-height: 1.8; color: #60738c; background: #f7fafc; }
+.bx-account-note > svg { flex-shrink: 0; color: #5b90a7; margin-top: 3px; }
+.bx-account-error { display: flex; align-items: flex-start; gap: 9px; color: #a33746; font-size: 12px; line-height: 1.8; border: 1px solid #f0d0d5; background: #fff4f4; border-radius: 8px; padding: 12px 14px; margin-top: 16px; overflow-wrap: anywhere; }
+.bx-account-error svg { flex-shrink: 0; margin-top: 2px; }
+.bx-account-notice { color: #24725c; font-size: 12px; line-height: 1.8; border: 1px solid #d4eadd; background: #f0faf5; border-radius: 8px; margin: 0 34px 18px; padding: 11px 13px; }
+.bx-account-actions { display: flex; align-items: center; gap: 10px; margin: 22px 0 0; }
+.bx-account-scope .bx-account-actions > .bx-button { flex: 1; min-height: 46px; border-radius: 9px; background: #087e9b; border-color: #087e9b; color: #fff; font-size: 14px; font-weight: 600; }
+.bx-account-scope .bx-account-actions > .bx-button:hover:not(:disabled) { background: #076b85; border-color: #076b85; }
+.bx-account-scope .bx-account-actions > .bx-button.secondary { flex: 0 0 auto; color: #4a5d75; background: #fff; border-color: #d6e1ed; padding-inline: 21px; }
+.bx-account-scope .bx-account-actions > .bx-button.secondary:hover:not(:disabled) { background: #f4f8fb; border-color: #a5c3d3; }
+.bx-account-scope button:disabled { opacity: 0.65; cursor: not-allowed; }
+.bx-account-links { display: flex; align-items: center; justify-content: center; gap: 13px; padding: 20px 0 24px; color: #adb9c8; }
+.bx-account-links a { display: inline-flex; align-items: center; gap: 5px; color: #78879b; font-size: 11px; }
+.bx-account-links a:hover { color: #087b96; }
+.bx-account-page a:focus-visible, .bx-account-scope a:focus-visible, .bx-account-scope button:focus-visible, .bx-account-error:focus-visible { outline: 3px solid #42bbd3; outline-offset: 4px; border-radius: 5px; }
+.bx-account-modal { width: min(480px, 100%); }
+.bx-account-modal > header { padding: 26px 30px 22px; }
+.bx-account-modal > header h2 { color: #19304a; font-size: 21px; }
+.bx-account-modal > header p { color: #64758c; font-size: 13px; }
+.bx-account-modal .bx-account-form { padding: 25px 30px 0; }
+.bx-account-modal .bx-icon-button { min-width: 36px; min-height: 36px; }
+
+@media (max-width: 920px) {
+    .bx-account-page { padding: 32px 24px; }
+    .bx-account-layout { max-width: 470px; grid-template-columns: minmax(0, 1fr); gap: 29px; }
+    .bx-account-page .bx-brand { margin-bottom: 28px; }
+    .bx-account-intro h1 { font-size: 35px; margin: 12px 0 10px; letter-spacing: -1px; }
+    .bx-account-intro h1 br { display: none; }
+    .bx-account-intro > p { font-size: 13px; max-width: none; }
+    .bx-account-intro > p br { display: none; }
+    .bx-account-journey, .bx-account-caption, .bx-account-market-link { display: none; }
+    .bx-account-card-header { padding-top: 25px; }
+    .bx-account-card-icon { display: none; }
+}
+
+@media (max-width: 480px) {
+    .bx-account-page { padding: 25px 16px 32px; }
+    .bx-account-intro h1 { font-size: 30px; }
+    .bx-account-eyebrow { font-size: 9px; letter-spacing: 1.7px; }
+    .bx-account-card { border-radius: 16px; }
+    .bx-account-card-header { padding: 26px 23px 22px; }
+    .bx-account-card-header h2 { font-size: 22px; }
+    .bx-account-scope .bx-account-form { padding: 0 23px; }
+    .bx-account-modal .bx-account-form { padding-top: 23px; }
+    .bx-account-modal > header { padding: 22px 23px; }
+    .bx-account-notice { margin-inline: 23px; }
+    .bx-account-scope input { font-size: 16px; }
+}
